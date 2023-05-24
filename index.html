@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--
+ File: index.html
+ Assignment: Creating Your First Web Page
+ Sindhuja Ghale, UMass Lowell Computer Science, Sindhuja_Ghale@student.uml.edu
+ Copyright (c) 2023 by Sindhuja Ghale. All rights reserved. May be
+ freely copied or excerpted for educational purposes with credit to the
+ author.
+ Updated by SG on May 23, 2022 at 6:00 PM
+ Brief Overview: This is my first hw for GUI I as well as my first web page. This contains little description about me and
+ about my plants. There is also links available to contact me.
+ Sources of Help: w3school, Stack Overflow, and https://plantly.io/plant-care. 
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Website</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    
+    <div class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    
+<!--Icons from w3 school-->
+    <div id = "home" class="content">
+      <h1>SINDHUJA GHALE</h1>
+      <p>Undergraduate Student - CS Major </p>
+      <div class = "logo">
+        <a href = "https://mail.google.com"><i class="fa fa-envelope "></i></a>
+        <a href = "https://github.com/SinGhale?tab=repositories"><i class="fa fa-github "></i></a> 
+        <a href = "https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a><br>
+      </div>
+    </div>
+    
+
+<!-- Profile.jpg = https://wallpapers-clan.com/pfp/aesthetic-anime-girl/-->
+    <div id = "about" class="about-me">
+      <div class="header">
+        <h1>About Me</h1>
+        <div class = "description">
+          <p><em>My name is Sindhuja Ghale. I am a rising senior at the University of Massachusetts Lowell. I am majoring in Computer Science. In my free time, I enjoy cooking and watching K-dramas, and anime.
+            I also love taking care of my plants.</em>
+          </p>
+        </div>
+        <div class="polaroid">
+          <img src="Images/profile.jpg" alt="Profile Image">
+          <div class="polaroid-caption"><em>Sindhuja Ghale</em></div>
+        </div>
+      </div>
+    </div>
+    
+    
+ <!--Description : https://plantly.io/plant-care and Images: All by Myself-->   
+    <div class="plant">
+      <h3> MY PLANTS</h3> <br>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Image</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>Marble Queen Pothos</td>
+          <td><img src="Images/Marble.jpg" alt="Marble"></td>
+          <td>Epipremnum aureum commonly known as Marble queen pothos is a vining plant with cream to yellow variegation. This beautiful plant comes from French Polynesia. 
+            It is a tropical aroid plant that belongs to the family of Araceae. Pothos are considered drought-tolerant plants which makes them easy to take care of. </td>
+        </tr>
+        <tr>
+          <td>Whale Fin Sanseviera</td>
+          <td><img src="Images/Whale-Fin.jpg" alt="Whale-Fin"></td>
+          <td>According to the University of Florida, the Whale Fin Snake plant is the Sansevieria masoniana common name. 
+            It belongs to the Agavaceae family. You find the particular plant in Central Africa, mainly in the Congo.
+            Sansevieria Whale Fin plant is a slow grower and perfect to place in an indoor setting. </td>
+        </tr>
+        <tr>
+          <td>ZZ</td>
+          <td><img src="Images/ZZ.jpg" alt="ZZ"></td>
+          <td>ZZ native area are Kenya and South Africa.ZZ houseplant is easy to care for and has simple needs to survive and thrive. 
+            You would not have any problem or issue in taking care of the plant if you follow the proper watering method, give it adequate sunlight, and observe appropriate soil drainage. 
+            ZZ plants do not have any complex techniques for caring for it.</td>
+        </tr>
+        <tr>
+          <td>Monstera Adansonii</td>
+          <td><img src="Images/Adansonii.jpg" alt="Adansonii"></td>
+          <td>Monstera Adasonii or the Swiss-cheese plant vining perennial from the numerous Monstera varieties can grow up to 60 ft tall, so you better prepare some stake or sticks for it to cling to. 
+            This beauty has become a famous indoor plant due to its aesthetic vibe.</td>
+        </tr>
+        <tr>
+          <td>Monstera Deliciosa</td>
+          <td><img src="Images/Deliciosa.jpg" alt="Deliciosa"></td>
+          <td>This species is a stunning plant to grow, and one that’s a favorite among plant collectors and plant enthusiasts alike.
+            The monstera albo is the variegated version of the Monstera deliciosa. Hence, it came from the natural mutation of the plant when reproduced. Therefore, each leaf is different, and it is like a surprise package until the foliage opens.
+          </td>
+        </tr>
+      </table>
+    </div>
+    
+    
+    
+    <div id="contact" class="contact">
+      <h1>CONTACT ME</h1>
+      <p >Thank you for visiting this page.<br>
+        Please feel free to contact me for collaboration.<br>
+        Links are attached in the homepage.
+      </p>
+      <div class = "verification">
+      <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px"
+          src="http://jigsaw.w3.org/css-validator/images/vcss"
+          alt="Valid CSS!"></a>
+        </p>
+
+      <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px"
+          src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+          alt="Valid CSS!" /></a>
+      </p>
+      
+    </div>
+    <p>Copyright &copy; by Sindhuja Ghale</p>
+    </div> 
+
+    
+  </body>
+</html>
