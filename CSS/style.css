@@ -1,0 +1,165 @@
+/* File: style.css
+ Assignment: Creating Your First Web Page
+ Sindhuja Ghale, UMass Lowell Computer Science, Sindhuja_Ghale@student.uml.edu
+ Copyright (c) 2023 by Sindhuja Ghale. All rights reserved. May be
+ freely copied or excerpted for educational purposes with credit to the
+ author.
+ Updated by SG on May 23, 2022 at 6:00 PM
+ Brief Overview: This is my first hw for GUI I as well as my first web page. This contains little description about me and
+ about my plants. There is also links available to contact me.
+ Sources of Help: w3school, Stack Overflow, and https://plantly.io/plant-care. 
+ */
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+    
+/* Style for the navigation bar */
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+    
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.navbar li a:hover {
+  background-color: black;
+}
+    
+
+/* Style for the home page */
+.content {
+  padding: 5px;
+  background-image: url(../Images/sunset.jpg);   /* sunset.jpg = https://www.peakpx.com/en/search?q=mountain+silhouettes+during+sunset*/
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  font-family:monospace;
+  font-size: large;
+}
+
+    
+/* Style for About section */
+.about-me {
+  background-image: url(../Images/flower.jpg);  /*flower.jpg = https://www.pinterest.com/pin/694680311244643682/*/
+  padding: 10px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+    
+
+.header {
+  text-align: center;
+}
+    
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.polaroid {
+  display: inline-block;
+  border: 10px solid white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+    
+.polaroid img {
+  height: 250px;
+  width: auto;
+}
+    
+.polaroid-caption {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: orange;
+}
+
+.description p {
+  font-family: "Arial", sans-serif;
+  font-size: 26px;
+  color: orange;
+}
+ 
+
+/* Style for Table */
+.plant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: pink;
+}
+    
+.plant h3 {
+  text-align: center;
+}
+    
+.plant table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: pink;
+}
+    
+.plant th,.plant td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.plant img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+
+/*style for contact section*/
+.contact {
+  height: 100px;
+  padding: 50px;
+  text-align: center;
+  background-color: pink;
+  color: black;
+  font-size: 24px;
+}
+
+.verification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
